@@ -106,7 +106,7 @@ def create_tf_example(annotation_dict, label_map_dict=None):
             
     encoded_masks = []
     for mask in masks:
-        pil_image = PIL.Image.fromarray(mask, mode='RGB')
+        pil_image = PIL.Image.fromarray(mask.astype(np.uint8))
         output_io = io.BytesIO()
         pil_image.save(output_io, format='PNG')
         encoded_masks.append(output_io.getvalue())
