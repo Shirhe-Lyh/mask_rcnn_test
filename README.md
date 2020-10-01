@@ -13,6 +13,7 @@ It helps to detect mask on faces in real-time potentially be used to help ensure
 ## Requirements
 - Python3 
 - Datasets 
+- Zip Extractor
 
 # Libraries
 - OpenCV
